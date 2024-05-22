@@ -1,0 +1,69 @@
+Question 1: What is a Publisher?
+
+A) A component that consumes data and requests items from the source.
+B) A component that produces data and signals items to subscribers.
+C) A component that processes data in batches.
+D) A component that logs messages asynchronously.
+
+Question 2: What is a Subscriber?
+
+A) A component that consumes data and requests items from the source.
+B) A component that transforms data emitted by a Publisher.
+C) A component that produces data and signals items to subscribers.
+D) A component that schedules tasks on a separate thread.
+
+Question 3: Which method is used by a Publisher to start emitting items to a Subscriber?
+
+A) emit()
+B) onNext()
+C) subscribe()
+D) request()
+
+Question 4: In the context of a Subscriber, what is the purpose of the onNext method?
+
+A) To handle the completion of the data stream.
+B) To handle errors that occur during data emission.
+C) To process each item emitted by the Publisher.
+D) To request more items from the Publisher.
+
+Question 5: What method should a Subscriber call to signal its readiness to receive items from a Publisher?
+
+A) onSubscribe()
+B) request()
+C) onComplete()
+D) cancel()
+
+Question 6: What does the onError method in a Subscriber do?
+
+A) It handles each item emitted by the Publisher.
+B) It handles errors that occur during data emission.
+C) It signals that the subscription has been canceled.
+D) It signals the completion of the data stream.
+
+Question 7: Which method in a Subscriber is called when the Publisher has finished sending items?
+
+A) onNext()
+B) onError()
+C) onComplete()
+D) onSubscribe()
+
+Question 8: In reactive programming, what does backpressure refer to?
+
+A) The process of transforming data from one type to another.
+B) The mechanism for handling the scenario where the Subscriber cannot keep up with the Publisher's emission rate.
+C) The use of multiple threads to process data concurrently.
+D) The strategy for retrying failed operations.
+
+Question 9: Which reactive stream interface allows you to subscribe to a Publisher?
+
+A) Processor
+B) Subscriber
+C) Subscription
+D) Emitter
+
+Question 10: What is the main responsibility of the Subscription interface?
+
+A) To handle the transformation of data items.
+B) To manage the lifecycle and flow of data between Publisher and Subscriber.
+C) To produce data and signal items to subscribers.
+D) To handle errors that occur during data emission.

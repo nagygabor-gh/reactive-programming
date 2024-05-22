@@ -1,0 +1,48 @@
+Question 1: What is Mono in reactive programming?
+
+A) A reactive type that represents zero or more items.
+B) A reactive type that represents a single item or no item.
+C) A synchronous type that represents multiple items.
+D) A blocking type that represents a stream of data.
+
+Question 2: What is Flux in reactive programming?
+
+A) A reactive type that represents a single item or no item.
+B) A reactive type that represents zero or one item.
+C) A reactive type that represents zero or more items.
+D) A synchronous type that represents a stream of data.
+
+Question 3: Which method is used to subscribe to a Mono or Flux?
+
+A) emit()
+B) listen()
+C) subscribe()
+D) receive()
+
+Question 4: What is a key benefit of using reactive programming with Mono and Flux?
+
+A) It allows for synchronous data processing.
+B) It enables non-blocking, asynchronous data processing.
+C) It simplifies procedural code.
+D) It enhances object-oriented design.
+
+Question 5: What does the onNext method do in a Subscriber?
+
+A) It handles the completion of the data stream.
+B) It handles errors that occur during data emission.
+C) It processes each item emitted by the Publisher.
+D) It requests more items from the Publisher.
+
+Question 6: What is the purpose of the subscribe method in Mono and Flux?
+
+A) To transform the emitted items.
+B) To define the data processing logic.
+C) To start the data flow and process the emitted items.
+D) To combine multiple publishers.
+
+Question 7: Which method in Mono and Flux can be used to handle errors?
+
+A) onComplete()
+B) onErrorResume()
+C) onNext()
+D) onSubscribe()

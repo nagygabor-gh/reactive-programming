@@ -14,12 +14,14 @@ public class MonoSubscribeInDetail {
 		Mono<String> successfulMono = Mono.just(data);
 		Mono<Integer> erroneousMono = Mono.just(data).map(String::length).map(l -> l / 0);
 
+		// using lambdas
 		successfulMono.subscribe(
 				i -> onNext(i),
 				err -> onError(err),
 				() -> onComplete()
 		);
 
+		// using method references
 		erroneousMono.subscribe(
 				MonoSubscribeInDetail::onNext,
 				MonoSubscribeInDetail::onError,

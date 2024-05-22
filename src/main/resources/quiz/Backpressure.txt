@@ -1,0 +1,48 @@
+Question 1: What is backpressure in reactive programming?
+
+A) The delay caused by network latency in data transmission.
+B) A mechanism to handle the situation where the Subscriber cannot keep up with the Publisher's emission rate.
+C) The process of transforming data items from one type to another.
+D) A strategy for retrying failed operations in a reactive stream.
+
+Question 2: Which reactive library provides built-in support for backpressure?
+
+A) RxJava
+B) Java Stream API
+C) Apache Commons IO
+D) SLF4J
+
+Question 3: In RxJava, which interface is used to indicate that a Publisher can handle backpressure?
+
+A) Flowable
+B) Observable
+C) Single
+D) Maybe
+
+Question 4: What method does a Subscriber use to request a specific number of items from the Publisher?
+
+A) subscribe()
+B) request(long n)
+C) onNext(T item)
+D) onComplete()
+
+Question 5: Which strategy is NOT a common way to handle backpressure in reactive streams?
+
+A) Buffering
+B) Dropping
+C) Throttling
+D) Caching
+
+Question 6: Which backpressure strategy involves slowing down the Publisher to match the pace of the Subscriber?
+
+A) Buffering
+B) Throttling
+C) Batching
+D) Blocking
+
+Question 7: What does the term "reactive pull" refer to in the context of backpressure?
+
+A) The Publisher pushing data to the Subscriber as fast as possible.
+B) The Subscriber requesting items at a manageable rate from the Publisher.
+C) The Publisher controlling the Subscriber's consumption rate.
+D) The use of multiple threads to handle data processing.

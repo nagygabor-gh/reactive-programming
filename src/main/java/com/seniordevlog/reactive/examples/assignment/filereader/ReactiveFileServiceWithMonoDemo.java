@@ -16,9 +16,11 @@ public class ReactiveFileServiceWithMonoDemo {
 		fileService.read("read3.txt")
 				.subscribe(ReactiveUtil.onNext(), ReactiveUtil.onError(), ReactiveUtil.onComplete());
 		// Hint: when is the file created?
-		fileService.write("read4.txt", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+		fileService.write("read4.txt", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+				.subscribe(ReactiveUtil.onNext(), ReactiveUtil.onError(), ReactiveUtil.onComplete());
 		// Hint: when is the file deleted?
-		fileService.delete("read4.txt");
+		fileService.delete("read4.txt")
+				.subscribe(ReactiveUtil.onNext(), ReactiveUtil.onError(), ReactiveUtil.onComplete());
 	}
 
 }
